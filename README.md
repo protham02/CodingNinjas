@@ -1,1 +1,1 @@
-# CodingNinjas Data Structures in C++
+# CodingNinjas - Data Structures in C++
