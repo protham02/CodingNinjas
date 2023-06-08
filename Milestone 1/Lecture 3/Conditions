@@ -32,6 +32,7 @@ int main() {
 
 
 
+
 q3.
 int main(){
     int marks = 75;
