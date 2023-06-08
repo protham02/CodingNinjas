@@ -68,6 +68,7 @@ int main() {
 
 
 
+
 q5.
 #include <iostream>
 using namespace std;
