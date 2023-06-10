@@ -1,3 +1,5 @@
+MCQs
+
 q1.
 #include <iostream>
 using namespace std;
@@ -83,4 +85,130 @@ int main() {
     else {
         cout << "hey";
     }
+}
+
+q6.
+#include <iostream>
+using namespace std;
+int main() {
+    int a = 10, b = 20, c = 30;
+    if(a <= b && !b) {
+        cout << "hello";
+    }
+    else if(c >= a && c >= b) {
+        cout << "hi";
+    }
+    else {
+        cout << "hey";
+    }
+}
+
+*CHECK CASE:-
+Write a program that takes a character as input and prints either 1, 0 or -1 according to the following rules.
+1, if the character is an uppercase alphabet (A - Z)
+0, if the character is a lowercase alphabet (a - z)
+-1, if the character is not an alphabet
+Input format :
+Single Character
+Output format :
+1 or 0 or -1
+Constraints :
+Input can be any character
+Sample Input 1 :
+v
+Sample Output 1 :
+0
+______________________________________________________________________________________________________________________
+Sol
+#include <iostream>
+using namespace std;
+
+int main() {
+    char input;
+    cin >> input;
+    if(input >= 'A' && input <= 'Z'){
+        cout << "1";
+    }
+    else if(input >= 'a' && input <= 'z'){
+        cout << "0";
+    }
+  
+  else{
+        cout << "-1";
+    }
+}
+
+
+*Sum of Even Numbers till N
+Given a number N, print sum of all even numbers from 1 to N.
+Input Format :
+Integer N
+Output Format :
+Required Sum 
+Sample Input 1 :
+ 6
+Sample Output 1 :
+12
+____________________________________________________________________________________________________________
+Sol
+#include<iostream>
+using namespace std;
+
+int main(){
+
+	int n, sum = 0, i = 2;
+    cin >> n;
+    if(n<i)
+        cout << 0;
+    else{
+        while( i<=n ){
+            sum = sum + i;
+            i += 2;
+        }
+        cout << sum;
+    }
+    
+}
+
+
+*Fahrenheit to Celsius Table
+Given three values - Start Fahrenheit Value (S), End Fahrenheit value (E) and Step Size (W), you need to convert all Fahrenheit values from Start to End at the gap of W, into their corresponding Celsius values and print the table.
+Input Format :
+3 integers - S, E and W respectively 
+Output Format :
+Fahrenheit to Celsius conversion table. One line for every Fahrenheit and corresponding Celsius value in integer form. The Fahrenheit value and its corresponding Celsius value should be separate by single space.
+Constraints :
+0 <= S <= 90
+S <= E <=  900
+0 <= W <= 80 
+Sample Input 1:
+0 
+100 
+20
+Sample Output 1:
+0   -17
+20  -6
+40  4
+60  15
+80  26
+100 37
+__________________________________________________________________________________________________
+Sol
+#include<iostream>
+using namespace std;
+
+
+int main(){
+
+    
+	int s,e,w,C,F;
+    cin >> s >> e >> w;
+    F=s;
+    while(F<=e){
+        C = 5.0/9 * (F-32);
+        cout << F << " " << C << endl;
+        F += w;
+    }
+    
+  
 }
