@@ -1,4 +1,4 @@
-q1.
+q1. Number Pattern 1
 Print the following pattern
 Pattern for N = 4
 1
@@ -11,10 +11,34 @@ N (Total no. of rows)
 
 Output Format :
 Pattern in N lines
+___________________________________________________________________________________________________________________________________________
+Sol
+#include <iostream>
+using namespace std;
+
+int main(){
+
+	int n;
+	cin >> n;
+
+	int i = 1;
+	int val = 1;
+	while (i <= n) {
+		int j = 1;
+        val = i;
+		while (j <= i) {
+			cout << val;
+			j = j + 1;
+			val = val + 1;
+		}
+		cout << endl;
+		i = i + 1;}
+  
+}
 
 
 
-q2.
+q2. Number Pattern 2
 Print the following pattern
 Pattern for N = 4
 
@@ -30,7 +54,87 @@ Pattern in N lines
 Sample Input :
 5
 Sample Output :
+___________________________________________________________________________________________________________________
+#include<iostream>
+using namespace std;
 
+int main(){
+
+   int n;
+	cin >> n;
+
+	int i = 1;
+	int val = 1;
+	while (i <= n) {
+		int k = 1;
+		while (k <= n - i) {
+			cout << " ";
+			k = k + 1;
+		}
+		val = i;
+		int j = 1;
+		while (j <= i) {
+			cout << val;
+			j = j + 1;
+			val = val + 1;
+		}
+		cout << endl;
+		i = i + 1;
+	}
+  
+  
+q3. Start Pattern
+Print the following pattern
+Pattern for N = 4
+
+
+
+Hint
+As taught in the video, you just have to modify the code so that instead of printing numbers, it should output stars ('*').
+The dots represent spaces.
+
+
+
+Input Format :
+N (Total no. of rows)
+Output Format :
+Pattern in N lines
+Constraints :
+0 <= N <= 50
+Sample Input 1 :
+3
+Sample Output 1 :
+   *
+  *** 
+ *****
+ ___________________________________________________________________________________________________________________________________________
+ Sol
+ #include<iostream>
+using namespace std;
+
+int main(){
+
+   int n;
+	cin >> n;
+
+	int i = 1;
+	int val = 1;
+	while (i <= n) {
+		int k = 1;
+		while (k <= n - i) {
+			cout << " ";
+			k = k + 1;
+		}
+
+		int j = 1;
+		while (j <= 2*i-1) {
+			cout << '*';
+			j = j + 1;
+			val = val + 1;
+		}
+		cout << endl;
+		i = i + 1;
+	}
 
 
 
