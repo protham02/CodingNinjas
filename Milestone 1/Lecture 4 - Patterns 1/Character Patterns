@@ -1,0 +1,132 @@
+q1. Alpha Pattern
+Print the following pattern for the given N number of rows.
+Pattern for N = 3
+ A
+ BB
+ CCC
+ 
+Input format :
+Integer N (Total no. of rows)
+Output format :
+Pattern in N lines
+
+Constraints
+0 <= N <= 26
+
+Sample Input 1:
+7
+Sample Output 1:
+A
+BB
+CCC
+DDDD
+EEEEE
+FFFFFF
+GGGGGGG
+______________________________________________________________________________________________________________________________________________
+SOL
+#include<iostream>
+using namespace std;
+
+int main(){
+    
+   int n;
+    cin >> n;
+    for(int i = 1; i<=n;i++){
+        for(int j = 1; j<=i;j++)
+            cout << char(i+'A'-1);
+        cout << endl;
+    }
+    
+}
+
+
+
+q2. Character Pattern
+Print the following pattern for the given N number of rows.
+Pattern for N = 4
+A
+BC
+CDE
+DEFG
+
+Input format :
+Integer N (Total no. of rows)
+
+Output format :
+Pattern in N lines
+
+Constraints
+0 <= N <= 13
+
+Sample Input 1:
+5
+Sample Output 1:
+A
+BC
+CDE
+DEFG
+EFGHI
+__________________________________________________________________________________________________________________________________________________
+Sol
+#include <iostream>
+using namespace std;
+
+int main(){
+
+    int n;
+    cin >> n;
+    for(int i = 1; i<=n;i++){
+        for(int j = 1; j<=i;j++)
+            cout << char(i+j+'A'-2);
+        cout << endl;
+    }
+  
+}
+
+
+
+q3. Interesting Alphabets
+Print the following pattern for the given number of rows.
+Pattern for N = 5
+E
+DE
+CDE
+BCDE
+ABCDE
+
+Input format :
+N (Total no. of rows)
+Output format :
+Pattern in N lines
+
+Constraints
+0 <= N <= 26
+
+Sample Input 1:
+8
+Sample Output 1:
+H
+GH
+FGH
+EFGH
+DEFGH
+CDEFGH
+BCDEFGH
+ABCDEFGH
+_______________________________________________________________________________________________________________________________________________________________
+SOL
+#include <iostream>
+using namespace std;
+
+int main() {
+    
+   int n;
+    cin >> n;
+    for(int i = 1; i<=n;i++){
+        for(int j = 1; j<=i;j++)
+            cout << char(n-i+j+'A'-1);
+        cout << endl;
+    }
+    
+}
