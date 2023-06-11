@@ -88,7 +88,8 @@ int main(){
 
 
 
-q3. Interesting Alphabets
+q3. 
+*Interesting Alphabets
 Print the following pattern for the given number of rows.
 Pattern for N = 5
 E
