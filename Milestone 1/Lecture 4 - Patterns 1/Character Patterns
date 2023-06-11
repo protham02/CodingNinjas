@@ -43,7 +43,8 @@ int main(){
 
 
 
-q2. Character Pattern
+q2.
+*Character Pattern
 Print the following pattern for the given N number of rows.
 Pattern for N = 4
 A
