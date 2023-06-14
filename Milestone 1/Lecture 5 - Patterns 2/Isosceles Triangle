@@ -27,6 +27,24 @@ Sample Output 1 :
 ____________________________________________________________________________________________________________________________________________________
 SOL
 
+#include <iostream>
+using namespace std;
+
+int main(){
+
+   int n,k=0;
+    cin >> n;
+    for(int i = 1; i<=n;i++){
+        for(int j = 1; j<=n-i;j++)
+            cout << ' ';
+        for(k = 1; k<=2*i-1;k++)
+            cout << '*';
+        
+        cout << endl;
+    }
+  
+}
+
 
 
 q2. Triangle of Numbers
