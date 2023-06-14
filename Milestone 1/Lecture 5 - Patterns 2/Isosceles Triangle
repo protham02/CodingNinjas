@@ -132,15 +132,12 @@ Sample Output 1:
 ____________________________________________________________________________________________________________________________________________
 SOL
 
-#include<iostream>
+#include <iostream>
 using namespace std;
-
 
 int main() {
     
-    /*  Read input as specified in the question.
-     * Print output as specified in the question.
-     */int n,k,i,j;
+    int n,k,i,j;
     cin >> n;
     for(i = 1; i<=(n+1)/2;i++){
         for(j = 1; j<=((n+1)/2)-i;j++)
