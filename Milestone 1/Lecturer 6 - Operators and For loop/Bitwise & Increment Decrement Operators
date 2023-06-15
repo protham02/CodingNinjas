@@ -1,0 +1,68 @@
+MCQs
+
+q1.
+#include <iostream>
+using namespace std;
+int main() 
+{    
+         int x= 10, y = 1;
+         if (++x >10 || x / 0 == 0)
+            cout << y;
+         else
+             cout << x;
+} 
+
+
+q2.
+#include <iostream>
+using namespace std;
+int main()
+{   
+    int x = 15;
+    int y = x++;
+    int z = ++x;
+    cout << y << “ “ << z;
+}
+
+
+q3.
+#include <iostream>
+using namespace std;
+int main() 
+{        
+         int g = 3;
+         cout << (++g * 8);
+}
+
+
+q4.
+#include <iostream>
+using namespace std;
+int main()
+{
+    int x = 10;
+    int y = 20;
+    if(x++ > 10 && ++y > 20 ){
+    cout << "Inside if ";
+    } else{
+    cout << "Inside else ";
+    }
+    cout << x << “ “ << y;
+}
+
+
+q5.
+#include <iostream>
+using namespace std;
+int main()
+{
+    int x = 10;
+    int y = 20;
+    if(x++ > 10 || ++y > 20 ){
+    cout << "Inside if ";
+    } else{
+    cout << "Inside else ";
+    }
+    cout << x << “ “ << y;
+}
+
