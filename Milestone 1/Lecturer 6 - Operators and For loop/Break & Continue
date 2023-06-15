@@ -23,13 +23,31 @@ while(i < 5) {
 
 q3.
 int i = 1;
-while(i < 5) {
-    if(i == 3) {
-        continue;
+while(i < 3) {
+    int j = 1;
+    while(j < 5) {
+        if(j == 3) {
+            break;
+        }
+        cout << j << " ";
+        j++;
     }
-    cout << i << " ";
     i++;
 }
 
+
+q4.
+int i = 1;
+while(i < 3) {
+    int j = 0;
+    while(j < 5) {
+        j++;
+        if(j == 3) {
+            continue;
+        }
+        cout << j << " ";
+    }
+    i++;
+}
 
 
