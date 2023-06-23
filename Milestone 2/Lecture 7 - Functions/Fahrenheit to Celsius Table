@@ -1,4 +1,4 @@
-Given three values - Start Fahrenheit Value (S), End Fahrenheit value (E) and Step Size (W), you need to convert all Fahrenheit values from Start to End at the gap of W, into their corresponding Celsius values and print the table.
+Q. Given three values - Start Fahrenheit Value (S), End Fahrenheit value (E) and Step Size (W), you need to convert all Fahrenheit values from Start to End at the gap of W, into their corresponding Celsius values and print the table.
 Note: You don't have to write the main function or take input. It has already been taken care of. Just write the code that prints Fahrenheit to Celsius table in the function itself.
 Input Format :
 3 integers - S, E and W respectively
@@ -25,3 +25,16 @@ ________________________________________________________________________________
 SOL
 
 
+#include <iostream>
+using namespace std;
+
+void printTable(int start, int end, int step) {
+    
+    int F=start, C;
+    while(F<=end){
+        C = 5.0/9 * (F-32);
+        cout << F << "\t" << C << endl;
+        F += step;
+    }
+    
+}
