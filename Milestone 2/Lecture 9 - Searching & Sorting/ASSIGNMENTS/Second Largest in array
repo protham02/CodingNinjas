@@ -1,4 +1,4 @@
-You have been given a random integer array/list(ARR) of size N. You are required to find and return the second largest element present in the array/list.
+Q. You have been given a random integer array/list(ARR) of size N. You are required to find and return the second largest element present in the array/list.
 Input format :
 The first line contains an integer 'N' representing the size of the array/list.
 
