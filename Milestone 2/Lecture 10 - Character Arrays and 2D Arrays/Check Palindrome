@@ -1,4 +1,4 @@
-Given a string, determine if it is a palindrome, considering only alphanumeric characters.
+Q. Given a string, determine if it is a palindrome, considering only alphanumeric characters.
 Palindrome
 A palindrome is a word, number, phrase, or other sequences of characters which read the same backwards and forwards.
 Example:
