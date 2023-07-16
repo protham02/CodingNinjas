@@ -1,4 +1,4 @@
-For a given a string(str), find and return the highest occurring character.
+Q. For a given a string(str), find and return the highest occurring character.
 Example:
 Input String: "abcdeapapqarr"
 Expected Output: 'a'
