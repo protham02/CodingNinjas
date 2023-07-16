@@ -1,4 +1,4 @@
-For a given two strings, 'str1' and 'str2', check whether they are a permutation of each other or not.
+Q. For a given two strings, 'str1' and 'str2', check whether they are a permutation of each other or not.
 Permutations of each other
 Two strings are said to be a permutation of each other when either of the string's characters can be rearranged so that it becomes identical to the other one.
 
