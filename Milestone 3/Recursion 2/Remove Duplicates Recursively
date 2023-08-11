@@ -1,4 +1,4 @@
-Given a string S, remove consecutive duplicates from it recursively.
+Q. Given a string S, remove consecutive duplicates from it recursively.
 Input Format :
 String S
 Output Format :
