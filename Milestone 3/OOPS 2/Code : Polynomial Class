@@ -1,4 +1,4 @@
-Implement a polynomial class, with the following properties and functions.
+Q. Implement a polynomial class, with the following properties and functions.
 Properties :
 1. An integer array (lets say A) which holds the coefficient and degrees. Use array indices as degree and A[i] as coefficient of ith degree.
 2. An integer holding total size of array A.
