@@ -1,4 +1,4 @@
-You have been given a linked list of integers. Your task is to write a function that deletes a node from a given position, 'POS'.
+Q. You have been given a linked list of integers. Your task is to write a function that deletes a node from a given position, 'POS'.
 Note :
 Assume that the Indexing for the linked list always starts from 0.
 
