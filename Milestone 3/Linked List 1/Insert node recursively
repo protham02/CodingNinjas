@@ -1,4 +1,4 @@
-Given a singly linked list of integers and position 'i', insert the given node at the 'i-th' position in the linked list recursively.
+Q. Given a singly linked list of integers and position 'i', insert the given node at the 'i-th' position in the linked list recursively.
  Note :
 Assume that the Indexing for the linked list always starts from 0.
 
