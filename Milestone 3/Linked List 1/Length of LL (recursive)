@@ -1,4 +1,4 @@
-Given a linked list, find and return the length of the given linked list recursively.
+Q. Given a linked list, find and return the length of the given linked list recursively.
 Input format :
 The first line contains an Integer 't' which denotes the number of test cases or queries to be run. Then the test cases follow.
 
