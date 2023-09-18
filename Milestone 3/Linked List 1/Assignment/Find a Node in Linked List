@@ -1,4 +1,4 @@
-You have been given a singly linked list of integers. Write a function that returns the index/position of integer data denoted by 'N' (if it exists). Return -1 otherwise.
+Q. You have been given a singly linked list of integers. Write a function that returns the index/position of integer data denoted by 'N' (if it exists). Return -1 otherwise.
 Note :
 Assume that the Indexing for the singly linked list always starts from 0.
 Input format :
