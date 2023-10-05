@@ -1,4 +1,4 @@
-Given a singly linked list of integers, reverse it iteratively and return the head to the modified list.
+Q. Given a singly linked list of integers, reverse it iteratively and return the head to the modified list.
  Note :
 No need to print the list, it has already been taken care. Only return the new head to the list.
 Input format :
