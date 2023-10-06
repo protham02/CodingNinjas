@@ -1,4 +1,4 @@
-Given a singly linked list of integers, sort it using 'Bubble Sort.'
+Q. Given a singly linked list of integers, sort it using 'Bubble Sort.'
 Note :
 No need to print the list, it has already been taken care. Only return the new head to the list.
 Input format :
