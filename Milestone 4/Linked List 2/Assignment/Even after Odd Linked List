@@ -1,4 +1,4 @@
-For a given singly linked list of integers, arrange the elements such that all the even numbers are placed after the odd numbers. The relative order of the odd and even terms should remain unchanged.
+Q. For a given singly linked list of integers, arrange the elements such that all the even numbers are placed after the odd numbers. The relative order of the odd and even terms should remain unchanged.
 Note :
 No need to print the list, it has already been taken care. Only return the new head to the list.
 Input format:
