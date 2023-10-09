@@ -1,4 +1,4 @@
-Given a singly linked list of integers and an integer n, find and return the index for the first occurrence of 'n' in the linked list. -1 otherwise.
+Q. Given a singly linked list of integers and an integer n, find and return the index for the first occurrence of 'n' in the linked list. -1 otherwise.
 Follow a recursive approach to solve this.
 Note :
 Assume that the Indexing for the linked list always starts from 0.
