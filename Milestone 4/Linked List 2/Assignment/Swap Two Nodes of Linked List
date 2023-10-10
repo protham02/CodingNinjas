@@ -1,4 +1,4 @@
-You have been given a singly linked list of integers along with two integers, 'i,' and 'j.' Swap the nodes that are present at the 'i-th' and 'j-th' positions.
+Q. You have been given a singly linked list of integers along with two integers, 'i,' and 'j.' Swap the nodes that are present at the 'i-th' and 'j-th' positions.
 Note :
 Remember, the nodes themselves must be swapped and not the datas.
 
