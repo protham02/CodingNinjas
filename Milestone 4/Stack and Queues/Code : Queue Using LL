@@ -1,4 +1,4 @@
-Implement a Queue Data Structure specifically to store integer data using a Singly Linked List.
+Q. Implement a Queue Data Structure specifically to store integer data using a Singly Linked List.
 The data members should be private.
 You need to implement the following public functions :
 1. Constructor:
